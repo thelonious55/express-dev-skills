@@ -7,8 +7,9 @@
 </head>
 <body>
     <h1>All Skills</h1>
+    <a href="/skills/new">Add Skill</a>
     <ul>
-        <% skills.forEach(s => { %>
+        <% skill.forEach(s => { %>
          <li>
             <a href="/skills/<%= s.id %>"><%= s.skill %></a>
 
